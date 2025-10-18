@@ -71,7 +71,10 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.custom.blur.enable=false
 endif
 
-PRODUCT_SYSTEM_PROPERTIES += ro.surface_flinger.supports_background_blur=1
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.surface_flinger.supports_background_blur=1 \
+    ro.clover.battery_capacity=$(TARGET_BATTERY_CAPACITY) \
+    ro.clover.screen_resolution=$(TARGET_SCREEN_WIDTH)x$(TARGET_SCREEN_HEIGHT)
 
 # BtHelper
 PRODUCT_PACKAGES += \
