@@ -290,7 +290,8 @@ PRODUCT_PACKAGES += \
     CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
     NetworkStackOverlay \
-    PermissionControllerOverlay
+    PermissionControllerOverlay \
+    SettingsOverlay
 
 # Translations
 CUSTOM_LOCALES += \
